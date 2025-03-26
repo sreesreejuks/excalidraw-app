@@ -1,10 +1,9 @@
-const { execSync } = require("child_process");
 const fs = require("fs");
 const path = require("path");
-
-const { Font } = require("fonteditor-core");
-const wawoff = require("wawoff2");
+const { execSync } = require("child_process");
 const which = require("which");
+const wawoff = require("wawoff2");
+const { Font } = require("fonteditor-core");
 
 /**
  * Custom esbuild plugin to:

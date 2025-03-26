@@ -1,6 +1,5 @@
-const { exec, execSync } = require("child_process");
 const fs = require("fs");
-
+const { exec, execSync } = require("child_process");
 const core = require("@actions/core");
 
 const excalidrawDir = `${__dirname}/../packages/excalidraw`;
